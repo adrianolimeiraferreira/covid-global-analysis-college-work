@@ -67,18 +67,8 @@ covid-global-analysis-college-work/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
-# 📷 Preview do Dashboard
-
-## 🌍 Mapa Global
-
-![Mapa Global](images/mapa-global.png)
-
----
-
-## 📈 Ranking de Países
-
-![Ranking](images/ranking.png)
 # 🌎 Fonte dos Dados
 
 Dataset utilizado:
