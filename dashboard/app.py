@@ -76,6 +76,16 @@ section[data-testid="stSidebar"] {{
     border-right: 1px solid #d9e2ec;
 }}
 
+/* Texto geral */
+html, body, [class*="css"] {{
+    color: #0f172a !important;
+}}
+
+/* Markdown e labels */
+.stMarkdown, p, label {{
+    color: #0f172a !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -274,7 +284,8 @@ fig_mapa = px.choropleth(
 
 fig_mapa.update_layout(
     paper_bgcolor="#f7f9fc",
-    plot_bgcolor="#f7f9fc"
+    plot_bgcolor="#f7f9fc",
+    font=dict(color="#0f172a")
 )
 
 st.plotly_chart(fig_mapa, width="stretch")
@@ -311,7 +322,8 @@ fig = px.bar(
 fig.update_layout(
     yaxis={"categoryorder": "total ascending"},
     paper_bgcolor="#f7f9fc",
-    plot_bgcolor="#ffffff"
+    plot_bgcolor="#ffffff",
+    font=dict(color="#0f172a")
 )
 
 st.plotly_chart(fig, width="stretch")
