@@ -1,4 +1,4 @@
-# Projeto Grupo 32 - SENAC
+# Projeto Integrador SENAC
 
 # 🌍 COVID Global Analysis Dashboard
 
